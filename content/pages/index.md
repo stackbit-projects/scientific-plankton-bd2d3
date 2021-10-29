@@ -22,7 +22,7 @@ sections:
         label: Learn More
         url: 'https://www.stackbit.com/'
         style: secondary
-      - label: Learn more
+      - label: Test button
         altText: Learn more
         url: /
         showIcon: false
