@@ -74,6 +74,38 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
+  - type: FeaturedPostsSection
+    variant: variant-c
+    colors: colors-c
+    backgroundWidth: full
+    title: Blog Posts
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+      - content/pages/blog/test.md
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+        alignItems: center
+        justifyContent: center
+      title:
+        fontWeight: 700
+        fontStyle: normal
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+      actions:
+        justifyContent: center
   - type: TestimonialsSection
     colors: colors-h
     backgroundWidth: full
@@ -123,38 +155,6 @@ sections:
         fontWeight: 400
         fontStyle: normal
         textAlign: center
-  - type: FeaturedPostsSection
-    variant: variant-c
-    colors: colors-c
-    backgroundWidth: full
-    title: Blog Posts
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
-      - content/pages/blog/test.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
-        justifyContent: center
-      title:
-        fontWeight: 700
-        fontStyle: normal
-        textAlign: center
-      subtitle:
-        fontWeight: 400
-        fontStyle: normal
-        textAlign: center
-      actions:
-        justifyContent: center
   - type: CtaSection
     colors: colors-c
     backgroundWidth: full
