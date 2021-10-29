@@ -24,7 +24,7 @@ sections:
         style: secondary
       - label: Contact us
         altText: Learn more
-        url: /
+        url: /about
         showIcon: false
         icon: arrowLeft
         iconPosition: right
